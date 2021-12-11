@@ -6,7 +6,9 @@
 #include "indexableSet.h"
 
 void check() {
-	ASSERT(true);
+	IndexableSet<int> val = {1,2,3};
+	ASSERT(val[0] == 1);
+
 }
 
 

@@ -10,6 +10,9 @@ class IndexableSet: std::set<T, COMPARE> {
 	int index;
 
 public:
+	using container = std::set<T, COMPARE>;
+	using container::container;
+
 	int size() {
 		return this->size();
 	}
@@ -47,8 +50,7 @@ public:
 	}
 	;
 
-	using container = std::set<T>;
-	using container::container;
+
 	using size_type = typename container::size_type;
 
 	T operator[](size_type index) {
