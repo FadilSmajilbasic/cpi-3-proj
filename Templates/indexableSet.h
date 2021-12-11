@@ -6,7 +6,7 @@
 #include <stdexcept>
 
 template<typename T, typename COMPARE = std::less<T>>
-class indexableSet: std::set<T, COMPARE> {
+class IndexableSet: std::set<T, COMPARE> {
 	int index;
 
 public:
