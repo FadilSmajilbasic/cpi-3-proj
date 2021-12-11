@@ -1,5 +1,5 @@
-#ifndef TEMPLATE_H_
-#define TEMPLATE_H_
+#ifndef INDEXABLESET_H_
+#define INDEXABLESET_H_
 
 #include <set>
 #include <functional>
@@ -57,4 +57,4 @@ public:
 
 };
 
-#endif /* TEMPLATE_H_ */
+#endif /* INDEXABLESET_H_ */

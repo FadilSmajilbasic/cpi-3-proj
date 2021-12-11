@@ -37,19 +37,19 @@
                             							
                             <targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.debug.658664315" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
                             							
-                            <builder buildPath="${workspace_loc:/Templates}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.939250318" managedBuildOn="true" name="Gnu Make Builder.Debug" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
+                            <builder buildPath="${workspace_loc:/Templates}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.939250318" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
                             							
                             <tool id="cdt.managedbuild.tool.gnu.archiver.base.694139544" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
                             							
                             <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2017486169" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
                                 								
-                                <option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1327592523" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+                                <option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1327592523" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
                                 								
-                                <option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.exe.debug.option.debugging.level.884145842" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                <option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.exe.debug.option.debugging.level.884145842" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
-                                <option id="gnu.cpp.compiler.option.dialect.flags.429743733" superClass="gnu.cpp.compiler.option.dialect.flags" value="-std=c++1z" valueType="string"/>
+                                <option id="gnu.cpp.compiler.option.dialect.flags.429743733" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=c++1z" valueType="string"/>
                                 								
-                                <option id="gnu.cpp.compiler.option.other.other.2123429584" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -Wno-attributes" valueType="string"/>
+                                <option id="gnu.cpp.compiler.option.other.other.2123429584" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-attributes" valueType="string"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.123587192" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                                 							
@@ -57,9 +57,9 @@
                             							
                             <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.589246926" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
                                 								
-                                <option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.1765368261" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                <option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.1765368261" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
-                                <option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.exe.debug.option.debugging.level.921468805" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                <option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.exe.debug.option.debugging.level.921468805" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1357164301" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
                                 							
@@ -88,6 +88,14 @@
                         </toolChain>
                         					
                     </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="cute" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="cute"/>
+                        					
+                    </sourceEntries>
                     				
                 </configuration>
                 			
@@ -131,19 +139,19 @@
                             							
                             <targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.445450860" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
                             							
-                            <builder buildPath="${workspace_loc:/Templates}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.222337448" managedBuildOn="true" name="Gnu Make Builder.Release" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+                            <builder buildPath="${workspace_loc:/Templates}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.222337448" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
                             							
                             <tool id="cdt.managedbuild.tool.gnu.archiver.base.219162289" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
                             							
                             <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1717240132" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
                                 								
-                                <option id="gnu.cpp.compiler.exe.release.option.optimization.level.1837026757" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+                                <option id="gnu.cpp.compiler.exe.release.option.optimization.level.1837026757" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
                                 								
-                                <option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.exe.release.option.debugging.level.783997228" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                <option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.exe.release.option.debugging.level.783997228" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
-                                <option id="gnu.cpp.compiler.option.dialect.flags.1822489555" superClass="gnu.cpp.compiler.option.dialect.flags" value="-std=c++1z" valueType="string"/>
+                                <option id="gnu.cpp.compiler.option.dialect.flags.1822489555" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=c++1z" valueType="string"/>
                                 								
-                                <option id="gnu.cpp.compiler.option.other.other.312470890" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -Wno-attributes" valueType="string"/>
+                                <option id="gnu.cpp.compiler.option.other.other.312470890" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-attributes" valueType="string"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1917946551" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                                 							
@@ -151,9 +159,9 @@
                             							
                             <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.306282279" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
                                 								
-                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.67313291" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.67313291" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
-                                <option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.322142833" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                <option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.322142833" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.886760276" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
                                 							
@@ -182,6 +190,14 @@
                         </toolChain>
                         					
                     </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="cute" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="cute"/>
+                        					
+                    </sourceEntries>
                     				
                 </configuration>
                 			
@@ -232,5 +248,7 @@
     <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
     	
     <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    	
+    <storageModule moduleId="refreshScope"/>
     
 </cproject>
