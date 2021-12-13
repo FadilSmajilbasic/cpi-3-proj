@@ -1,13 +1,20 @@
-#include "cute.h"
-#include "ide_listener.h"
-#include "xml_listener.h"
-#include "cute_runner.h"
+#include "cute/cute.h"
+#include "cute/ide_listener.h"
+#include "cute/xml_listener.h"
+#include "cute/cute_runner.h"
 
 #include "indexableSet.h"
+#include <functional>
+#include <iostream>
 
 void check() {
-	IndexableSet<int> val = {1,2,3};
-	ASSERT(val[0] == 1);
+	IndexableSet<int,std::less<int>> val{1,2,3};
+	std::cout << typeid(val).name();
+//	ASSERT(val[0] == 1);
+	ASSERT_EQUAL(1,val[0]);
+	ASSERT_EQUAL(3,val[-1]);
+
+	//ASSERT(val[-1] == 3);
 
 }
 
@@ -22,6 +29,6 @@ bool runAllTests(int argc, char const *argv[]) {
 	return success;
 }
 
-int main(int argc, char const *argv[]) {
-	return runAllTests(argc, argv) ? EXIT_SUCCESS : EXIT_FAILURE;
-}
+//int main(int argc, char const *argv[]) {
+//	return runAllTests(argc, argv) ? EXIT_SUCCESS : EXIT_FAILURE;
+//}
