@@ -3,19 +3,17 @@
 
 int main(int argc, char **argv) {
 
-	IndexableSet<int> val{};
+	indexableSet<int> val{};
 
-	std::cout << sizeof(val) << "\n";
+	std::cout << val.size() << "\n";
 
 
+	val.push_back(1);
+	val.push_back(2);
 	val.push_back(3);
+	std::cout << val[-1]<< "\n";
 
-	val.push_back(3);
-	val.push_back(3);
-
-	std::cout << sizeof(val) << "\n";
-
-	std::cout << typeid(val).name();
+	//std::cout << typeid(val).name();
 
 //	std::cout << "\nspace " << val[-1];
 //	std::cout << "\nspace " << val.max_size();
