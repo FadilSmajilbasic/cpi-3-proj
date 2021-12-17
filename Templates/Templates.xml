@@ -1,0 +1,13 @@
+<testsuites>
+	<testsuite name="AllTests" tests="9">
+		<testcase classname="AllTests" name="test_istantiation"/>
+		<testcase classname="AllTests" name="test_last_value_in_collection"/>
+		<testcase classname="AllTests" name="test_empty_set"/>
+		<testcase classname="AllTests" name="test_exception_positive_index"/>
+		<testcase classname="AllTests" name="test_exception_negative_index"/>
+		<testcase classname="AllTests" name="test_front"/>
+		<testcase classname="AllTests" name="test_back"/>
+		<testcase classname="AllTests" name="test_negative_limit_as_index"/>
+		<testcase classname="AllTests" name="test_istantiation_with_different_comparator"/>
+	</testsuite>
+</testsuites>
